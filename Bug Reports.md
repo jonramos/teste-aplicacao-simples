@@ -119,7 +119,7 @@ Os campos deveriam estar alinhados corretamente na vertical, conforme a sugestã
 ---
 # Bug #08: Campo e-mail exibe texto em inglês
 
-| **Descrição**  | Ao digitar algum texto no campo e-mail e colocar o mouse sobre, o campo exibe uma mensagem de validação em inglês. |
+| **Descrição**  | Ao digitar algum texto no campo e-mail e colocar o mouse sobre o campo, o campo exibe uma mensagem de validação em inglês. |
 | -------------- | ------------------------------------------------------------------------------------------------------------------ |
 | **Severidade** | Baixo                                                                                                              |
 | **Prioridade** | Baixo                                                                                                              |
@@ -129,7 +129,7 @@ Os campos deveriam estar alinhados corretamente na vertical, conforme a sugestã
 
 ### Resultado esperado
 
-É esperado que a mensagem seja no mesmo idioma do usuário, e que a mensagem seja exibida sem a necessidade de colocar o mouse sobre o campo. Pode-se seguir a mesma lógica da sugestão do bug #04:
+É esperado que a mensagem seja no mesmo idioma do usuário e que a mensagem seja exibida sem a necessidade de colocar o mouse sobre o campo. Pode-se seguir a mesma lógica da sugestão do bug #04:
 
 ![](Imagens/aviso-campo-e-mail.png)
 
@@ -143,7 +143,7 @@ Os campos deveriam estar alinhados corretamente na vertical, conforme a sugestã
 | **Prioridade** | Médio                                                                                               |
 ### Resultado atual
 
-O campo é não é formatado.
+O campo não é formatado.
 
 ![](Imagens/part1-telefone.png)
 ### Resultado esperado
@@ -155,14 +155,16 @@ O campo é não é formatado.
 
 # Bug #10: Campo telefone aceita não é validado.
 
-| **Descrição**  | Não há validação do número digitado, permitindo a inclusão de mais caracteres que o necessário, além de letras e símbolos. |
+| **Descrição**  | Não há validação do número digitado, permitindo a inclusão de mais caracteres do que o necessário, além de letras e símbolos. |
 | -------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | **Severidade** | Alto                                                                                                                       |
 | **Prioridade** | Alto                                                                                                                       |
 ### Resultado atual
 
 O campo permite qualquer entrada.
+
 ![](Imagens/part2-telefone.png)
+
 ![](Imagens/parte-telefone.png)
 ### Resultado esperado
 
@@ -180,6 +182,7 @@ O campo permite qualquer entrada.
 ### Resultado atual
 
 O campo permite senhas diferentes.
+
 ![](Imagens/campo-confirmar-senha.png)
 
 ### Resultado esperado
@@ -201,7 +204,7 @@ O formulário não destaca quais campos são obrigatórios no momento do cadastr
 
 ### Resultado esperado
 
-E esperado que o usuário seja informado a respeito de quais campos são obrigatórios.
+É esperado que o usuário seja informado a respeito de quais campos são obrigatórios.
 ![](Imagens/campos-obrigatorios.png)
 
 ---
@@ -227,13 +230,13 @@ Como o usuário ainda precisa fazer login, é esperado que o botão retorne o us
 
 # Bug #14: Erro de Login
 
-| **Descrição**  | Ao realizar o login com uma conta previamente cadastrada, é exibido uma mensagem de erro ao usuário. |
+| **Descrição**  | Ao realizar o login com uma conta previamente cadastrada, é exibida uma mensagem de erro ao usuário. |
 | -------------- | ---------------------------------------------------------------------------------------------------- |
 | **Severidade** | Médio                                                                                                |
 | **Prior**      | Alto                                                                                                 |
 ### Resultado atual
 
-Uma mensagem (toast) de erro é exibida embora a mensagem de sucesso também seja exibida.
+Uma mensagem (toast) de erro é exibida, embora a mensagem de sucesso também seja exibida.
 
 ![](Imagens/login.png)
 
