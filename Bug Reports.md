@@ -263,3 +263,21 @@ Essa informação deve ser mascarada para que usuários maliciosos não tenham a
 
 ---
 
+# Bug #16: Não há validação no processo de criação de conta
+
+| **Descrição**  | É possível identificar criar uma conta completamente vazia ao avançar sem preencher nenhum dado. |
+| -------------- | ------------------------------------------------------------------------------ |
+| **Severidade** | Crítico                                                                        |
+| **Prior**      | Alto                                                                           |
+### Resultado atual
+
+Ao clicar em **Criar Conta** sem ter preenchido nenhum dado, o sistema aceita esse formulário e exibe a mensagem de sucesso ao usuário.
+![](Imagens/sem-validacao.gif)
+
+
+### Resultado esperado
+
+O sistema não deve permitir uma entrada vazia, informando o usuário quais os campos obrigatórios.
+
+---
+
