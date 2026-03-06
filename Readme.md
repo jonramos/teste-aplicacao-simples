@@ -1,6 +1,6 @@
-Para facilitar a leitura eu decidi colocar todos os bugs reportados em um único arquivo. [[Bug Reports]]
+Para facilitar a leitura eu decidi colocar todos os bugs reportados em um único arquivo. [Bug Reports](Bug&#32;Reports.md)
 
-As sugestões estão no arquivo [[Sugestões]]
+As sugestões estão no arquivo [Sugestões](Sugestões.md)
 
 ## Resposta à pergunta: quais 2 bugs você corrigiria primeiro e por quê?
 
