@@ -2,6 +2,8 @@ Para facilitar a leitura eu decidi colocar todos os bugs reportados em um único
 
 As sugestões estão no arquivo [Sugestões](Sugestões.md)
 
+Como eu terminei na sexta e tive um tempo no fim de semana, criei alguns testes automatizados: [Link](tes_plan_1)
+
 ## Resposta à pergunta: quais 2 bugs você corrigiria primeiro e por quê?
 
 O primeiro seria o bug #15, pois é uma falha grave de segurança que permite que a senha do usuário seja exposta com facilidade a qualquer usuário. 
